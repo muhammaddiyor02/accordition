@@ -1,0 +1,86 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.wrap{
+    width: 800px;
+    margin: 0 auto;
+    
+}
+.accordition{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.accordition--item{
+    width: 400px;
+    height: 50px;
+    border: 0.7px solid rgb(89, 89, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.accordition--itemm{
+    width: 400px;
+    height: 50px;
+    border: 0.7px solid rgb(89, 89, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.accordition--itemmm{
+    width: 400px;
+    height: 50px;
+    border: 0.7px solid rgb(89, 89, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.accordition__tit{
+  position: absolute;
+  left: 10px;
+}
+.accordition__sumble{
+    position: absolute;
+    right: 10px;
+    transition: all ease 0.9s;
+    transform: rotate(0);
+  }
+
+
+  .accordition__sumble2{
+    position: absolute;
+    right: 10px;
+    transition: all ease 0.9s;
+    transform: rotate(0);
+  } 
+  .accordition__sumble3{
+    position: absolute;
+    right: 10px;
+    transition: all ease 0.9s;
+    transform: rotate(0);
+  }
+  .acc__open{
+    transform: rotate(-180deg);
+  }
+  .acc__open2{
+    transform: rotate(-180deg);
+  }
+  .acc__open3{
+    transform: rotate(-180deg);
+  }
+  .accordition--item:first-child{
+    border-radius: 7px 7px 0 0;
+  }
+  .accordition--itemmm{
+    border-radius:0 0 7px 7px ;
+  }
+  .parent {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
